@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+.myName {
+	margin-top: 20px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -1636,6 +1640,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+		
 
 		.image.featured {
 			display: block;
@@ -2227,10 +2232,14 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		.myName {
+			padding: 30px;
+		}
 
 			body {
 				padding-top: 44px;
 			}
+			
 
 			body, input, textarea, select {
 				line-height: 1.75em;
